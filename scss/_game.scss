@@ -1,0 +1,23 @@
+.imgs{
+    display: none;
+}
+
+.game{
+    width: 100%;
+    min-height: 100vh;
+    h1{
+        font-size: 4rem;
+        text-align: center;
+        color: $first-color;
+        padding-top: 1rem;
+    }
+    #gameScreen{
+        background: url(../img/bg-image.png);
+        background-position: center center;
+        background-size: cover;
+        border: 1px solid black;
+        margin: 0 auto;
+        display: block;
+        margin-top: 2rem;
+    }
+}
